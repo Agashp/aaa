@@ -1,0 +1,88 @@
+html {font-style: 'Righteous',Mate, Georgia, Garamond, 'Times New Roman', Serif;} /* Sets Font in the file */
+body {background-color: cornsilk;
+      background-image: url('https://images.unsplash.com/photo-1569520045266-66f21ad8a4be?%20q=80&w=1470&auto=format&fit=crop&ixlib=rb-%204.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+      background-attachment: fixed;
+      background-blend-mode: darken;
+    } /* Sets the background color of the page */
+nav { font-size: 1.2em; /* Sets the font size */
+    margin: 1.5em; /* Adds margin around the navigation */
+    font-family: 'Philosopher','Cinzel', Georgia, Garamond, 'Times New Roman', Serif;  
+    display: flex;
+    justify-content: center;
+}  
+section { margin:0.5em;
+         border-radius: 50px;
+        padding-bottom: 0.8em; }
+footer p {font-size:0.8em;
+    color:white;  /* Sets Color to the Footer */
+    text-align: center; /* Aligns the text in footer to center */
+    padding: 0.2em; /* Adds padding inside the footer */
+    background-color: #008f88; /* Sets background color to footer */
+    margin: 0.1em;
+}
+h1,h2,h3 {font-family: 'Orbitron','Merriweather',verdana,Tahoma,sans-serif; /* Sets font for heading */
+font-style:italic;}
+
+h1{background-color: #004643; /* Sets background color for heading */
+    color:white; /* Sets text color */
+    padding: 1.1em; /* Adds padding inside header */
+    text-align:center; /* Aligns text to center */
+    letter-spacing: 0.2em;
+}
+h2, h3 {background-color: gold; /* Sets Background color */
+    color:#0c1618; /* Sets text color */
+    padding-top: 0.8em; /* Adds padding to top of heading h2 and h3 */
+    padding-bottom: 0.3em; /* Adds padding to bottom of h2 and h3 */
+    padding-left: 1.0rem;  /* Removes the padding from left */
+    padding-right: 1.0rem,; /* Removes the padding from right */
+}
+.highlight {
+    background-color: peachpuff; /* Sets the background color for the specified text */
+    font-weight:bold; /* Makes the highlighted text bold */
+}
+h1,h2
+{
+    padding: 1.0rem;
+}
+.content
+{
+    padding: 1.0rem;
+    background-color: white;
+    opacity: 0.93;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: table;
+
+}
+nav ul li{
+    float: left;
+    border-right: 1px solid grey;
+}
+nav ul li:last-child{
+    border-right: none;
+}
+nav a {
+    color: white;
+    background-color: #11b1b3;
+    display: block;
+    text-align: center;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+  }
+  nav a:hover {
+    color: #11b1b3;
+    background-color: #ffffff;
+    border: 1px solid #0eb482;
+  }
+
+    
+
+   
+
+
